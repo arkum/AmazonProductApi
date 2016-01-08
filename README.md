@@ -7,7 +7,7 @@ Amazon Product API wrapper in C#
   var products = await amazonapi.ItemLookup(productids, "Images,ItemAttributes,Offers");
             
 ```
-You can optional pass a ``` Func<string, Task<XDocument>> ``` to avoid hitting amazon services in unit tests
+You can optionally pass a ``` Func<string, Task<XDocument>> ``` to avoid hitting amazon services in unit tests
 
 ```cs
 var products = await amazonapi.ItemLookup(productids, "Images,ItemAttributes,Offers", retrievelfunc);
