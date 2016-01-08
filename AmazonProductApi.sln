@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonApi", "AmazonProductAPI\AmazonApi.csproj", "{C2887452-809F-4F19-AD95-220B4028969D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonApi.Tests", "AmazonApi.Tests\AmazonApi.Tests.csproj", "{1A878D3B-EE32-4424-96B0-029ACE3DA95C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{38E27DAC-5EF2-485D-BA52-A47D234435AC}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2887452-809F-4F19-AD95-220B4028969D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2887452-809F-4F19-AD95-220B4028969D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2887452-809F-4F19-AD95-220B4028969D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2887452-809F-4F19-AD95-220B4028969D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A878D3B-EE32-4424-96B0-029ACE3DA95C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A878D3B-EE32-4424-96B0-029ACE3DA95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A878D3B-EE32-4424-96B0-029ACE3DA95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A878D3B-EE32-4424-96B0-029ACE3DA95C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

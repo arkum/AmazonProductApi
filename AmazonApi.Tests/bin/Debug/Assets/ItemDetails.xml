@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" ?>
+<ItemLookupResponse
+    xmlns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
+    <OperationRequest>
+        <HTTPHeaders>
+            <Header Name="UserAgent" Value="Mozilla/5.0 (Windows NT 10.0; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0"></Header>
+        </HTTPHeaders>
+        <RequestId>1dfb1d21-69e4-4c9c-9bd3-f8a1d8411176</RequestId>
+        <Arguments>
+            <Argument Name="AWSAccessKeyId" Value="<your aws key>"></Argument>
+            <Argument Name="AssociateTag" Value="<your associate tag>"></Argument>
+            <Argument Name="IdType" Value="ASIN"></Argument>
+            <Argument Name="ItemId" Value="B00T85P56C"></Argument>
+            <Argument Name="Operation" Value="ItemLookup"></Argument>
+            <Argument Name="ResponseGroup" Value="EditorialReview,Images,ItemAttributes,OfferFull,Offers"></Argument>
+            <Argument Name="Service" Value="AWSECommerceService"></Argument>
+            <Argument Name="Timestamp" Value="2015-12-25T10:50:01.000Z"></Argument>
+            <Argument Name="Signature" Value="2//0wItjSB6gyagj2twgWxvTzHyGW7oQmXB1pnSp8MU="></Argument>
+        </Arguments>
+        <RequestProcessingTime>0.0337800000000000</RequestProcessingTime>
+    </OperationRequest>
+    <Items>
+        <Request>
+            <IsValid>True</IsValid>
+            <ItemLookupRequest>
+                <IdType>ASIN</IdType>
+                <ItemId>B00T85P56C</ItemId>
+                <ResponseGroup>EditorialReview</ResponseGroup>
+                <ResponseGroup>Images</ResponseGroup>
+                <ResponseGroup>ItemAttributes</ResponseGroup>
+                <ResponseGroup>OfferFull</ResponseGroup>
+                <ResponseGroup>Offers</ResponseGroup>
+                <VariationPage>All</VariationPage>
+            </ItemLookupRequest>
+        </Request>
+        <Item>
+            <ASIN>B00T85P56C</ASIN>
+            <ParentASIN>B00TE94GEE</ParentASIN>
+            <DetailPageURL>http://www.amazon.com/Nikon-COOLPIX-Digital-Optical-Built-In/dp/B00T85P56C%3Fpsc%3D1%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB00T85P56C</DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Technical Details</Description>
+                    <URL>http://www.amazon.com/Nikon-COOLPIX-Digital-Optical-Built-In/dp/tech-data/B00T85P56C%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00T85P56C</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Baby Registry</Description>
+                    <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB00T85P56C%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00T85P56C</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wedding Registry</Description>
+                    <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB00T85P56C%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00T85P56C</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB00T85P56C%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00T85P56C</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>http://www.amazon.com/gp/pdp/taf/B00T85P56C%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00T85P56C</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>http://www.amazon.com/review/product/B00T85P56C%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00T85P56C</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>http://www.amazon.com/gp/offer-listing/B00T85P56C%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00T85P56C</URL>
+                </ItemLink>
+            </ItemLinks>
+            <SmallImage>
+                <URL>http://ecx.images-amazon.com/images/I/51M-oI42JJL._SL75_.jpg</URL>
+                <Height Units="pixels">56</Height>
+                <Width Units="pixels">75</Width>
+            </SmallImage>
+            <MediumImage>
+                <URL>http://ecx.images-amazon.com/images/I/51M-oI42JJL._SL160_.jpg</URL>
+                <Height Units="pixels">118</Height>
+                <Width Units="pixels">160</Width>
+            </MediumImage>
+            <LargeImage>
+                <URL>http://ecx.images-amazon.com/images/I/51M-oI42JJL.jpg</URL>
+                <Height Units="pixels">370</Height>
+                <Width Units="pixels">500</Width>
+            </LargeImage>
+            <ImageSets>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>http://ecx.images-amazon.com/images/I/41v1QWsN3nL._SL30_.jpg</URL>
+                        <Height Units="pixels">22</Height>
+                        <Width Units="pixels">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>http://ecx.images-amazon.com/images/I/41v1QWsN3nL._SL75_.jpg</URL>
+                        <Height Units="pixels">56</Height>
+                        <Width Units="pixels">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>http://ecx.images-amazon.com/images/I/41v1QWsN3nL._SL75_.jpg</URL>
+                        <Height Units="pixels">56</Height>
+                        <Width Units="pixels">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>http://ecx.images-amazon.com/images/I/41v1QWsN3nL._SL110_.jpg</URL>
+                        <Height Units="pixels">82</Height>
+                        <Width Units="pixels">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>http://ecx.images-amazon.com/images/I/41v1QWsN3nL._SL160_.jpg</URL>
+                        <Height Units="pixels">119</Height>
+                        <Width Units="pixels">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>http://ecx.images-amazon.com/images/I/41v1QWsN3nL.jpg</URL>
+                        <Height Units="pixels">373</Height>
+                        <Width Units="pixels">500</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>http://ecx.images-amazon.com/images/I/41mvP8dqYmL._SL30_.jpg</URL>
+                        <Height Units="pixels">22</Height>
+                        <Width Units="pixels">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>http://ecx.images-amazon.com/images/I/41mvP8dqYmL._SL75_.jpg</URL>
+                        <Height Units="pixels">56</Height>
+                        <Width Units="pixels">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>http://ecx.images-amazon.com/images/I/41mvP8dqYmL._SL75_.jpg</URL>
+                        <Height Units="pixels">56</Height>
+                        <Width Units="pixels">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>http://ecx.images-amazon.com/images/I/41mvP8dqYmL._SL110_.jpg</URL>
+                        <Height Units="pixels">81</Height>
+                        <Width Units="pixels">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>http://ecx.images-amazon.com/images/I/41mvP8dqYmL._SL160_.jpg</URL>
+                        <Height Units="pixels">118</Height>
+                        <Width Units="pixels">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>http://ecx.images-amazon.com/images/I/41mvP8dqYmL.jpg</URL>
+                        <Height Units="pixels">370</Height>
+                        <Width Units="pixels">500</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>http://ecx.images-amazon.com/images/I/41uHUzP4qFL._SL30_.jpg</URL>
+                        <Height Units="pixels">26</Height>
+                        <Width Units="pixels">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>http://ecx.images-amazon.com/images/I/41uHUzP4qFL._SL75_.jpg</URL>
+                        <Height Units="pixels">65</Height>
+                        <Width Units="pixels">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>http://ecx.images-amazon.com/images/I/41uHUzP4qFL._SL75_.jpg</URL>
+                        <Height Units="pixels">65</Height>
+                        <Width Units="pixels">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>http://ecx.images-amazon.com/images/I/41uHUzP4qFL._SL110_.jpg</URL>
+                        <Height Units="pixels">96</Height>
+                        <Width Units="pixels">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>http://ecx.images-amazon.com/images/I/41uHUzP4qFL._SL160_.jpg</URL>
+                        <Height Units="pixels">139</Height>
+                        <Width Units="pixels">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>http://ecx.images-amazon.com/images/I/41uHUzP4qFL.jpg</URL>
+                        <Height Units="pixels">435</Height>
+                        <Width Units="pixels">500</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="primary">
+                    <SwatchImage>
+                        <URL>http://ecx.images-amazon.com/images/I/51M-oI42JJL._SL30_.jpg</URL>
+                        <Height Units="pixels">22</Height>
+                        <Width Units="pixels">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>http://ecx.images-amazon.com/images/I/51M-oI42JJL._SL75_.jpg</URL>
+                        <Height Units="pixels">56</Height>
+                        <Width Units="pixels">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>http://ecx.images-amazon.com/images/I/51M-oI42JJL._SL75_.jpg</URL>
+                        <Height Units="pixels">56</Height>
+                        <Width Units="pixels">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>http://ecx.images-amazon.com/images/I/51M-oI42JJL._SL110_.jpg</URL>
+                        <Height Units="pixels">81</Height>
+                        <Width Units="pixels">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>http://ecx.images-amazon.com/images/I/51M-oI42JJL._SL160_.jpg</URL>
+                        <Height Units="pixels">118</Height>
+                        <Width Units="pixels">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>http://ecx.images-amazon.com/images/I/51M-oI42JJL.jpg</URL>
+                        <Height Units="pixels">370</Height>
+                        <Width Units="pixels">500</Width>
+                    </LargeImage>
+                </ImageSet>
+            </ImageSets>
+            <ItemAttributes>
+                <Binding>Electronics</Binding>
+                <Brand>Nikon</Brand>
+                <CatalogNumberList>
+                    <CatalogNumberListElement>26485</CatalogNumberListElement>
+                    <CatalogNumberListElement>26485B</CatalogNumberListElement>
+                    <CatalogNumberListElement>NIKCPL840BKG</CatalogNumberListElement>
+                </CatalogNumberList>
+                <Color>Black</Color>
+                <Creator Role="Designer">NIKON</Creator>
+                <EAN>0616348083133</EAN>
+                <EANList>
+                    <EANListElement>0616348083133</EANListElement>
+                    <EANListElement>0018208264858</EANListElement>
+                </EANList>
+                <Feature>38x optical zoom telephoto lens with Vibration Reduction; 76x dynamic fine zoom</Feature>
+                <Feature>Low-light 16MP CMOS image sensor</Feature>
+                <Feature>3.0-inch 921,000-dot Tilt LCD display</Feature>
+                <Feature>Full HD 1080p videos with stereo sound</Feature>
+                <Feature>Built-in Wi-Fi and Near Field Communication technology for instant sharing</Feature>
+                <IsAutographed>0</IsAutographed>
+                <IsEligibleForTradeIn>1</IsEligibleForTradeIn>
+                <IsMemorabilia>0</IsMemorabilia>
+                <ItemDimensions>
+                    <Height Units="hundredths-inches">309</Height>
+                    <Length Units="hundredths-inches">378</Length>
+                    <Weight Units="hundredths-pounds">119</Weight>
+                    <Width Units="hundredths-inches">447</Width>
+                </ItemDimensions>
+                <Label>Nikon</Label>
+                <Languages>
+                    <Language>
+                        <Name>English</Name>
+                        <Type>Unknown</Type>
+                    </Language>
+                </Languages>
+                <LegalDisclaimer>Sold as is</LegalDisclaimer>
+                <ListPrice>
+                    <Amount>29995</Amount>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <FormattedPrice>$299.95</FormattedPrice>
+                </ListPrice>
+                <Manufacturer>Nikon</Manufacturer>
+                <Model>26485</Model>
+                <MPN>26485</MPN>
+                <PackageDimensions>
+                    <Height Units="hundredths-inches">500</Height>
+                    <Length Units="hundredths-inches">610</Length>
+                    <Weight Units="hundredths-pounds">190</Weight>
+                    <Width Units="hundredths-inches">580</Width>
+                </PackageDimensions>
+                <PackageQuantity>1</PackageQuantity>
+                <PartNumber>26485</PartNumber>
+                <ProductGroup>Photography</ProductGroup>
+                <ProductTypeName>CAMERA_DIGITAL</ProductTypeName>
+                <ProductTypeSubcategory>point-and-shoot</ProductTypeSubcategory>
+                <Publisher>Nikon</Publisher>
+                <ReleaseDate>2015-03-01</ReleaseDate>
+                <Size>6M</Size>
+                <Studio>Nikon</Studio>
+                <Title>Nikon COOLPIX L840 Digital Camera with 38x Optical Zoom and Built-In Wi-Fi (Black)</Title>
+                <TradeInValue>
+                    <Amount>10733</Amount>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <FormattedPrice>$107.33</FormattedPrice>
+                </TradeInValue>
+                <UPC>616348083133</UPC>
+                <UPCList>
+                    <UPCListElement>616348083133</UPCListElement>
+                    <UPCListElement>018208264858</UPCListElement>
+                </UPCList>
+            </ItemAttributes>
+            <OfferSummary>
+                <LowestNewPrice>
+                    <Amount>19695</Amount>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <FormattedPrice>$196.95</FormattedPrice>
+                </LowestNewPrice>
+                <LowestUsedPrice>
+                    <Amount>16898</Amount>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <FormattedPrice>$168.98</FormattedPrice>
+                </LowestUsedPrice>
+                <LowestRefurbishedPrice>
+                    <Amount>18500</Amount>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <FormattedPrice>$185.00</FormattedPrice>
+                </LowestRefurbishedPrice>
+                <TotalNew>10</TotalNew>
+                <TotalUsed>13</TotalUsed>
+                <TotalCollectible>0</TotalCollectible>
+                <TotalRefurbished>3</TotalRefurbished>
+            </OfferSummary>
+            <Offers>
+                <TotalOffers>1</TotalOffers>
+                <TotalOfferPages>1</TotalOfferPages>
+                <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/B00T85P56C%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00T85P56C</MoreOffersUrl>
+                <Offer>
+                    <Merchant>
+                        <Name>Amazon.com</Name>
+                    </Merchant>
+                    <OfferAttributes>
+                        <Condition>New</Condition>
+                    </OfferAttributes>
+                    <OfferListing>
+                        <OfferListingId>ADlEQgPkEpxZLHXa1gHtlyksNmTMlP%2BI3HpaP9QTWPk0INzElEiGxzi4oqVBK%2BUHD2vmhRT4o8TwOPrK%2F6HfAXIqgtVjMRucJ8bqJzlFDpZEemKPEZ%2Fzfg%3D%3D</OfferListingId>
+                        <Price>
+                            <Amount>19695</Amount>
+                            <CurrencyCode>USD</CurrencyCode>
+                            <FormattedPrice>$196.95</FormattedPrice>
+                        </Price>
+                        <AmountSaved>
+                            <Amount>10300</Amount>
+                            <CurrencyCode>USD</CurrencyCode>
+                            <FormattedPrice>$103.00</FormattedPrice>
+                        </AmountSaved>
+                        <PercentageSaved>34</PercentageSaved>
+                        <Availability>Usually ships in 24 hours</Availability>
+                        <AvailabilityAttributes>
+                            <AvailabilityType>now</AvailabilityType>
+                            <MinimumHours>0</MinimumHours>
+                            <MaximumHours>0</MaximumHours>
+                        </AvailabilityAttributes>
+                        <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+                        <IsEligibleForPrime>1</IsEligibleForPrime>
+                    </OfferListing>
+                </Offer>
+            </Offers>
+            <EditorialReviews>
+                <EditorialReview>
+                    <Source>Product Description</Source>
+                    <Content>Long zoom, a fast-handling design, plus built-in Wi-Fi and NFC, all come together in the 
+                        <b>Nikon Coolpix L840 Wi-Fi Digital Camera</b> to help you take your photos and videos to the next level. Zoom in with the power of a 38x optical zoom telephoto NIKKOR glass lens. Flip out the high-resolution 3.0" tilting LCD screen, take a low-angle macro shot of a delicious meal and post it online before you even take your first bite. Additional features: compact grip-style design, Vibration Reduction (VR), Smart Portrait System, Target Finding AF, Full HD 1080p Video, plus more!
+                    </Content>
+                    <IsLinkSuppressed>0</IsLinkSuppressed>
+                </EditorialReview>
+            </EditorialReviews>
+        </Item>
+    </Items>
+</ItemLookupResponse>

@@ -1,0 +1,2315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2013-08-01">
+  <OperationRequest>
+    <RequestId>e6b66242-79e9-4b32-94d7-d4e5ae72dd89</RequestId>
+    <Arguments>
+      <Argument Name="AWSAccessKeyId" Value="<your aws key>"></Argument>
+      <Argument Name="AssociateTag" Value="<your associate tag>"></Argument>
+      <Argument Name="ItemId" Value="B004YLCJXC,B00MHIWT8O,B00NH2VLGK,B00MNG37C2,B00746W9F2,B00J2APFMW,B000AYTYK8,B019HWTWUA,B00GNUC0R2,B0163GNS5S"></Argument>
+      <Argument Name="Operation" Value="ItemLookup"></Argument>
+      <Argument Name="ResponseGroup" Value="Images,ItemAttributes,Offers"></Argument>
+      <Argument Name="Service" Value="AWSECommerceService"></Argument>
+      <Argument Name="Timestamp" Value="2015-12-18T14:21:31Z"></Argument>
+      <Argument Name="Version" Value="2013-08-01"></Argument>
+      <Argument Name="Signature" Value="LOd5BOUT1wiZWYv5SGEQTkz67NgAQq5Iup075fqfkQk="></Argument>
+    </Arguments>
+    <RequestProcessingTime>0.0672460000000000</RequestProcessingTime>
+  </OperationRequest>
+  <Items>
+    <Request>
+      <IsValid>True</IsValid>
+      <ItemLookupRequest>
+        <IdType>ASIN</IdType>
+        <ItemId>B004YLCJXC</ItemId>
+        <ItemId>B00MHIWT8O</ItemId>
+        <ItemId>B00NH2VLGK</ItemId>
+        <ItemId>B00MNG37C2</ItemId>
+        <ItemId>B00746W9F2</ItemId>
+        <ItemId>B00J2APFMW</ItemId>
+        <ItemId>B000AYTYK8</ItemId>
+        <ItemId>B019HWTWUA</ItemId>
+        <ItemId>B00GNUC0R2</ItemId>
+        <ItemId>B0163GNS5S</ItemId>
+        <ResponseGroup>Images</ResponseGroup>
+        <ResponseGroup>ItemAttributes</ResponseGroup>
+        <ResponseGroup>Offers</ResponseGroup>
+        <VariationPage>All</VariationPage>
+      </ItemLookupRequest>
+      <Errors>
+        <Error>
+          <Code>AWS.InvalidParameterValue</Code>
+          <Message>B00NH2VLGK is not a valid value for ItemId. Please change this value and retry your request.</Message>
+        </Error>
+      </Errors>
+    </Request>
+    <Item>
+      <ASIN>B00MHIWT8O</ASIN>
+      <DetailPageURL>http://www.amazon.com/Sport-Watch-Mechanical-Hands-28058/dp/B00MHIWT8O%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB00MHIWT8O</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/Sport-Watch-Mechanical-Hands-28058/dp/tech-data/B00MHIWT8O%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00MHIWT8O</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB00MHIWT8O%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00MHIWT8O</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB00MHIWT8O%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00MHIWT8O</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB00MHIWT8O%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00MHIWT8O</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/B00MHIWT8O%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00MHIWT8O</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/B00MHIWT8O%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00MHIWT8O</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/B00MHIWT8O%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00MHIWT8O</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/61dw4JLB1zL._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/61dw4JLB1zL._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/61dw4JLB1zL.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">500</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/51UEjveMAWL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/51UEjveMAWL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/51UEjveMAWL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/51UEjveMAWL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/51UEjveMAWL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/51UEjveMAWL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/61awIvvJQFL.jpg</URL>
+            <Height Units="pixels">1000</Height>
+            <Width Units="pixels">1000</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/610HgxSvPNL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/610HgxSvPNL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/610HgxSvPNL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/610HgxSvPNL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/610HgxSvPNL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/610HgxSvPNL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/71KxyUQ3I5L.jpg</URL>
+            <Height Units="pixels">1000</Height>
+            <Width Units="pixels">1000</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/51OPaduRYJL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/51OPaduRYJL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/51OPaduRYJL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/51OPaduRYJL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/51OPaduRYJL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/51OPaduRYJL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/61JRRgcCtoL.jpg</URL>
+            <Height Units="pixels">1000</Height>
+            <Width Units="pixels">1000</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/61CoAquOSKL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/61CoAquOSKL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/61CoAquOSKL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/61CoAquOSKL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/61CoAquOSKL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/61CoAquOSKL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/71a1EppiWOL.jpg</URL>
+            <Height Units="pixels">1000</Height>
+            <Width Units="pixels">1000</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/61uhZ1QtdaL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/61uhZ1QtdaL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/61uhZ1QtdaL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/61uhZ1QtdaL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/61uhZ1QtdaL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/61uhZ1QtdaL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/713wFoWfzIL.jpg</URL>
+            <Height Units="pixels">1000</Height>
+            <Width Units="pixels">1000</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/61dw4JLB1zL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/61dw4JLB1zL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/61dw4JLB1zL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/61dw4JLB1zL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/61dw4JLB1zL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/61dw4JLB1zL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/71yKOcClrvL.jpg</URL>
+            <Height Units="pixels">1000</Height>
+            <Width Units="pixels">1000</Width>
+          </HiResImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Binding>Watch</Binding>
+        <Brand>wanpiece</Brand>
+        <EAN>0701987552789</EAN>
+        <EANList>
+          <EANListElement>0701987552789</EANListElement>
+        </EANList>
+        <Feature>Imported</Feature>
+        <Feature>Luxury Retro Euro Design</Feature>
+        <Feature>A-class lether &amp; movement material</Feature>
+        <Feature>Tourbillon</Feature>
+        <Label>wanpiece</Label>
+        <Manufacturer>wanpiece</Manufacturer>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">160</Height>
+          <Length Units="hundredths-inches">600</Length>
+          <Weight Units="hundredths-pounds">25</Weight>
+          <Width Units="hundredths-inches">350</Width>
+        </PackageDimensions>
+        <ProductGroup>Watch</ProductGroup>
+        <ProductTypeName>WATCH</ProductTypeName>
+        <Publisher>wanpiece</Publisher>
+        <Studio>wanpiece</Studio>
+        <Title>Sport Watch For men on Mechanical 4 Hands AND Date Day (28058)</Title>
+        <UPC>701987552789</UPC>
+        <UPCList>
+          <UPCListElement>701987552789</UPCListElement>
+        </UPCList>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>3664</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$36.64</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>7</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/B00MHIWT8O%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00MHIWT8O</MoreOffersUrl>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>4EiBcvXDeIO9bpMjCcA2J6e3d1bBPc4IVb2njtt%2FiXAPW5WCwWKrU6UArL3kN8CCq2pn8T76B2oOqRYrh8zgmF9M%2BDX9mLrnogjBfUduMhoixv1VAbzcxZhRnuSQgnx1HEmRjBqoqVz%2B8wZA93%2FaLmZSpn6wg67f</OfferListingId>
+            <Price>
+              <Amount>3764</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$37.64</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 1-2 business days</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>24</MinimumHours>
+              <MaximumHours>48</MaximumHours>
+            </AvailabilityAttributes>
+            <IsEligibleForSuperSaverShipping>0</IsEligibleForSuperSaverShipping>
+            <IsEligibleForPrime>0</IsEligibleForPrime>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B00MNG37C2</ASIN>
+      <ParentASIN>B015IZ0W2W</ParentASIN>
+      <DetailPageURL>http://www.amazon.com/Syma-Explorers-6-Axis-Quadcopter-Camera/dp/B00MNG37C2%3Fpsc%3D1%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB00MNG37C2</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/Syma-Explorers-6-Axis-Quadcopter-Camera/dp/tech-data/B00MNG37C2%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00MNG37C2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB00MNG37C2%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00MNG37C2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB00MNG37C2%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00MNG37C2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB00MNG37C2%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00MNG37C2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/B00MNG37C2%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00MNG37C2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/B00MNG37C2%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00MNG37C2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/B00MNG37C2%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00MNG37C2</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/31F80tz4ENL._SL75_.jpg</URL>
+        <Height Units="pixels">51</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/31F80tz4ENL._SL160_.jpg</URL>
+        <Height Units="pixels">109</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/31F80tz4ENL.jpg</URL>
+        <Height Units="pixels">341</Height>
+        <Width Units="pixels">500</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/31abDrgiKrL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/31abDrgiKrL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/31abDrgiKrL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/31abDrgiKrL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/31abDrgiKrL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/31abDrgiKrL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/51xaamsLPVL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/51xaamsLPVL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/51xaamsLPVL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/51xaamsLPVL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/51xaamsLPVL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/51xaamsLPVL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/41r-XTdgr2L._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/41r-XTdgr2L._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/41r-XTdgr2L._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/41r-XTdgr2L._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/41r-XTdgr2L._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/41r-XTdgr2L.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/31Zijb2mh8L._SL30_.jpg</URL>
+            <Height Units="pixels">12</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/31Zijb2mh8L._SL75_.jpg</URL>
+            <Height Units="pixels">31</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/31Zijb2mh8L._SL75_.jpg</URL>
+            <Height Units="pixels">31</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/31Zijb2mh8L._SL110_.jpg</URL>
+            <Height Units="pixels">46</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/31Zijb2mh8L._SL160_.jpg</URL>
+            <Height Units="pixels">66</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/31Zijb2mh8L.jpg</URL>
+            <Height Units="pixels">207</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/41Dw1To-oPL.jpg</URL>
+            <Height Units="pixels">425</Height>
+            <Width Units="pixels">1026</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/31F80tz4ENL._SL30_.jpg</URL>
+            <Height Units="pixels">20</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/31F80tz4ENL._SL75_.jpg</URL>
+            <Height Units="pixels">51</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/31F80tz4ENL._SL75_.jpg</URL>
+            <Height Units="pixels">51</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/31F80tz4ENL._SL110_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/31F80tz4ENL._SL160_.jpg</URL>
+            <Height Units="pixels">109</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/31F80tz4ENL.jpg</URL>
+            <Height Units="pixels">341</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/61yasO5d0OL.jpg</URL>
+            <Height Units="pixels">1017</Height>
+            <Width Units="pixels">1492</Width>
+          </HiResImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Binding>Toy</Binding>
+        <Brand>SYMA</Brand>
+        <CatalogNumberList>
+          <CatalogNumberListElement>GM-B00MNG37C2</CatalogNumberListElement>
+        </CatalogNumberList>
+        <Color>White</Color>
+        <EAN>6060576031949</EAN>
+        <EANList>
+          <EANListElement>6060576031949</EANListElement>
+          <EANListElement>0797435478480</EANListElement>
+          <EANListElement>8600123451073</EANListElement>
+          <EANListElement>0844949021678</EANListElement>
+        </EANList>
+        <Feature>Equipped with HD camera and 2GB Micro SD card</Feature>
+        <Feature>Perform flips at the press of a button with 360 degree eversion</Feature>
+        <Feature>Wind resistant and can be flown indoors or outdoors</Feature>
+        <Feature>6-axis Gyro stabilization system ensures maximum stability during flight</Feature>
+        <Feature>7 Minute flight time and 100 minute charge time.</Feature>
+        <IsAdultProduct>0</IsAdultProduct>
+        <ItemDimensions>
+          <Height Units="hundredths-inches">310</Height>
+          <Length Units="hundredths-inches">1220</Length>
+          <Weight Units="hundredths-pounds">140</Weight>
+          <Width Units="hundredths-inches">1220</Width>
+        </ItemDimensions>
+        <ItemPartNumber>X5C-W</ItemPartNumber>
+        <Label>SYMA</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Manual</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+        </Languages>
+        <LegalDisclaimer>Original Brand New,Factory Price. Usually we send your order within 1-2 days.Ship from China By Registered Airmail (not by normal airmail),Tracking number is available,More Safer; 7~12 working days arrive. Good Service and no fee 1 Year Warranty(not including Shipping cost ) is our company policy.Import duties, taxes, and charges are not included. Money refundable and send back to us if you don't want it. We sell,We care!Buy With Confidence!</LegalDisclaimer>
+        <ListPrice>
+          <Amount>6399</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$63.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>SYMA</Manufacturer>
+        <ManufacturerMinimumAge Units="months">168</ManufacturerMinimumAge>
+        <Model>X5C-W</Model>
+        <MPN>X5C-W</MPN>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">350</Height>
+          <Length Units="hundredths-inches">1620</Length>
+          <Weight Units="hundredths-pounds">175</Weight>
+          <Width Units="hundredths-inches">1200</Width>
+        </PackageDimensions>
+        <PackageQuantity>1</PackageQuantity>
+        <PartNumber>X5C-W</PartNumber>
+        <ProductGroup>Hobby</ProductGroup>
+        <ProductTypeName>TOYS_AND_GAMES</ProductTypeName>
+        <Publisher>SYMA</Publisher>
+        <Size>Single</Size>
+        <Studio>SYMA</Studio>
+        <Title>Syma X5C Explorers 2.4G 4CH 6-Axis Gyro RC Quadcopter With HD Camera</Title>
+        <UPC>844949021678</UPC>
+        <UPCList>
+          <UPCListElement>844949021678</UPCListElement>
+          <UPCListElement>797435478480</UPCListElement>
+        </UPCList>
+        <Warranty>No Warranty</Warranty>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>5950</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$59.50</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>8</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/B00MNG37C2%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00MNG37C2</MoreOffersUrl>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>5ErzZ6pHqOf72h1YyT66uyjsSnMLhvnIfwaOTnfTV%2FWwsvrcSa3zXOD5nXqxi%2BLss8DstjiVpdy1m8gIUOsQCbsICqlfD%2F323tvgT3fcqBG3k8PiuOj7xfY6dxwc0llCTCCA7lA62wHQAhPJWo9KYOUFk0R4NDlY</OfferListingId>
+            <Price>
+              <Amount>5995</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$59.95</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>404</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$4.04</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>6</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>24</MinimumHours>
+              <MaximumHours>24</MaximumHours>
+            </AvailabilityAttributes>
+            <IsEligibleForSuperSaverShipping>0</IsEligibleForSuperSaverShipping>
+            <IsEligibleForPrime>0</IsEligibleForPrime>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B00746W9F2</ASIN>
+      <ParentASIN>B00A31GKBE</ParentASIN>
+      <DetailPageURL>http://www.amazon.com/Apple-MD531LL-Wi-Fi-White-Silver/dp/B00746W9F2%3Fpsc%3D1%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB00746W9F2</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/Apple-MD531LL-Wi-Fi-White-Silver/dp/tech-data/B00746W9F2%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00746W9F2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB00746W9F2%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00746W9F2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB00746W9F2%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00746W9F2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB00746W9F2%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00746W9F2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/B00746W9F2%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00746W9F2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/B00746W9F2%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00746W9F2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/B00746W9F2%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00746W9F2</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/41E0YyTaNtL._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">55</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/41E0YyTaNtL._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">118</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/41E0YyTaNtL.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">369</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/31JYuoAy3TL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">23</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/31JYuoAy3TL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">58</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/31JYuoAy3TL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">58</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/31JYuoAy3TL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">85</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/31JYuoAy3TL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">123</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/31JYuoAy3TL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">385</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/71MXmmK563L.jpg</URL>
+            <Height Units="pixels">2560</Height>
+            <Width Units="pixels">1973</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/31bommKLQbL._SL30_.jpg</URL>
+            <Height Units="pixels">20</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/31bommKLQbL._SL75_.jpg</URL>
+            <Height Units="pixels">51</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/31bommKLQbL._SL75_.jpg</URL>
+            <Height Units="pixels">51</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/31bommKLQbL._SL110_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/31bommKLQbL._SL160_.jpg</URL>
+            <Height Units="pixels">109</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/31bommKLQbL.jpg</URL>
+            <Height Units="pixels">340</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/714OTFkSyFL.jpg</URL>
+            <Height Units="pixels">1743</Height>
+            <Width Units="pixels">2560</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/31fLjxj81QL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">20</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/31fLjxj81QL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">50</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/31fLjxj81QL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">50</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/31fLjxj81QL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">73</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/31fLjxj81QL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">107</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/31fLjxj81QL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">334</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/715OsK5%2Bj9L.jpg</URL>
+            <Height Units="pixels">2560</Height>
+            <Width Units="pixels">1711</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/21SfuVFnaCL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">12</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/21SfuVFnaCL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">30</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/21SfuVFnaCL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">30</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/21SfuVFnaCL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">44</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/21SfuVFnaCL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">65</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/21SfuVFnaCL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">202</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/61DtEjgdWPL.jpg</URL>
+            <Height Units="pixels">2560</Height>
+            <Width Units="pixels">1035</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/41sx87ei87L._SL30_.jpg</URL>
+            <Height Units="pixels">28</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/41sx87ei87L._SL75_.jpg</URL>
+            <Height Units="pixels">70</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/41sx87ei87L._SL75_.jpg</URL>
+            <Height Units="pixels">70</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/41sx87ei87L._SL110_.jpg</URL>
+            <Height Units="pixels">103</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/41sx87ei87L._SL160_.jpg</URL>
+            <Height Units="pixels">149</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/41sx87ei87L.jpg</URL>
+            <Height Units="pixels">466</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/81Eq3juvPxL.jpg</URL>
+            <Height Units="pixels">2370</Height>
+            <Width Units="pixels">2544</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/41E0YyTaNtL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">22</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/41E0YyTaNtL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">55</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/41E0YyTaNtL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">55</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/41E0YyTaNtL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">81</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/41E0YyTaNtL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">118</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/41E0YyTaNtL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">369</Width>
+          </LargeImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Binding>Personal Computers</Binding>
+        <Brand>Apple</Brand>
+        <CatalogNumberList>
+          <CatalogNumberListElement>95227</CatalogNumberListElement>
+          <CatalogNumberListElement>tablet-computers</CatalogNumberListElement>
+        </CatalogNumberList>
+        <Color>Silver</Color>
+        <EAN>0885909667765</EAN>
+        <EANList>
+          <EANListElement>0885909667765</EANListElement>
+          <EANListElement>0519808907881</EANListElement>
+          <EANListElement>0885909669875</EANListElement>
+          <EANListElement>8859056176793</EANListElement>
+          <EANListElement>0885909575350</EANListElement>
+          <EANListElement>0885909673520</EANListElement>
+          <EANListElement>0746278720089</EANListElement>
+          <EANListElement>0885909575473</EANListElement>
+          <EANListElement>8903384065486</EANListElement>
+          <EANListElement>0600332056326</EANListElement>
+          <EANListElement>0715660885019</EANListElement>
+          <EANListElement>7337331783870</EANListElement>
+          <EANListElement>0600332056296</EANListElement>
+        </EANList>
+        <Feature>7.9-inch LED-backlit Multi-Touch Display; 1024-by-768 Resolution</Feature>
+        <Feature>Apple iOS 6; Dual-Core A5 Chip 1GHZ</Feature>
+        <Feature>5 MP iSight Camera; 1080p HD Video Recording</Feature>
+        <Feature>Wi-Fi (802.11a/b/g/n); 16 GB Capacity</Feature>
+        <Feature>Up to 10 Hours of Battery Life; 0.68 lbs</Feature>
+        <HardwarePlatform>XXX</HardwarePlatform>
+        <IsAutographed>0</IsAutographed>
+        <IsEligibleForTradeIn>1</IsEligibleForTradeIn>
+        <IsMemorabilia>0</IsMemorabilia>
+        <ItemDimensions>
+          <Height Units="hundredths-inches">120</Height>
+          <Length Units="hundredths-inches">820</Length>
+          <Weight Units="hundredths-pounds">68</Weight>
+          <Width Units="hundredths-inches">510</Width>
+        </ItemDimensions>
+        <Label>Apple Computer</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+        </Languages>
+        <LegalDisclaimer>Must be at least 18 &amp; over to purchase</LegalDisclaimer>
+        <ListPrice>
+          <Amount>32900</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$329.00</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Apple Computer</Manufacturer>
+        <Model>MD531LL/A</Model>
+        <MPN>MD531LL/A</MPN>
+        <NumberOfItems>1</NumberOfItems>
+        <OperatingSystem>Apple iOS 6</OperatingSystem>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">170</Height>
+          <Length Units="hundredths-inches">840</Length>
+          <Weight Units="hundredths-pounds">115</Weight>
+          <Width Units="hundredths-inches">560</Width>
+        </PackageDimensions>
+        <PackageQuantity>1</PackageQuantity>
+        <PartNumber>MD531LL/A</PartNumber>
+        <ProductGroup>Personal Computer</ProductGroup>
+        <ProductTypeName>TABLET_COMPUTER</ProductTypeName>
+        <Publisher>Apple Computer</Publisher>
+        <Size>16 GB</Size>
+        <Studio>Apple Computer</Studio>
+        <Title>Apple iPad mini MD531LL/A (16GB, Wi-Fi Only, White / Silver)</Title>
+        <TradeInValue>
+          <Amount>13301</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$133.01</FormattedPrice>
+        </TradeInValue>
+        <UPC>715660885019</UPC>
+        <UPCList>
+          <UPCListElement>715660885019</UPCListElement>
+          <UPCListElement>885909669875</UPCListElement>
+          <UPCListElement>885909575350</UPCListElement>
+          <UPCListElement>600332056326</UPCListElement>
+          <UPCListElement>519808907881</UPCListElement>
+          <UPCListElement>885909575473</UPCListElement>
+          <UPCListElement>885909667765</UPCListElement>
+          <UPCListElement>600332056296</UPCListElement>
+          <UPCListElement>885909673520</UPCListElement>
+          <UPCListElement>746278720089</UPCListElement>
+        </UPCList>
+        <Warranty>Phone consulting</Warranty>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>22745</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$227.45</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>17100</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$171.00</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestRefurbishedPrice>
+          <Amount>18985</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$189.85</FormattedPrice>
+        </LowestRefurbishedPrice>
+        <TotalNew>196</TotalNew>
+        <TotalUsed>72</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>9</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+        <MoreOffersUrl>0</MoreOffersUrl>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B00J2APFMW</ASIN>
+      <ParentASIN>B0197XPTS8</ParentASIN>
+      <DetailPageURL>http://www.amazon.com/Gillette-Proglide-Flexball-Technology-Refills/dp/B00J2APFMW%3Fpsc%3D1%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB00J2APFMW</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/Gillette-Proglide-Flexball-Technology-Refills/dp/tech-data/B00J2APFMW%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00J2APFMW</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB00J2APFMW%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00J2APFMW</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB00J2APFMW%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00J2APFMW</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB00J2APFMW%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00J2APFMW</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/B00J2APFMW%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00J2APFMW</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/B00J2APFMW%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00J2APFMW</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/B00J2APFMW%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00J2APFMW</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/51IofQb9dgL._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/51IofQb9dgL._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/51IofQb9dgL.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">500</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/41C99Vrq9CL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/41C99Vrq9CL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/41C99Vrq9CL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/41C99Vrq9CL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/41C99Vrq9CL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/41C99Vrq9CL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/71MybL9K%2BmL.jpg</URL>
+            <Height Units="pixels">2000</Height>
+            <Width Units="pixels">2000</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/51rNglPVhGL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/51rNglPVhGL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/51rNglPVhGL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/51rNglPVhGL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/51rNglPVhGL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/51rNglPVhGL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/91QSvvRCirL.jpg</URL>
+            <Height Units="pixels">2500</Height>
+            <Width Units="pixels">2500</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/51PkwcfSo6L._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/51PkwcfSo6L._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/51PkwcfSo6L._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/51PkwcfSo6L._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/51PkwcfSo6L._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/51PkwcfSo6L.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/91YiaDs45NL.jpg</URL>
+            <Height Units="pixels">2500</Height>
+            <Width Units="pixels">2500</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/5173hLW1rVL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/5173hLW1rVL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/5173hLW1rVL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/5173hLW1rVL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/5173hLW1rVL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/5173hLW1rVL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/91bRcPNW6cL.jpg</URL>
+            <Height Units="pixels">2500</Height>
+            <Width Units="pixels">2500</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/51uyniJntOL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/51uyniJntOL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/51uyniJntOL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/51uyniJntOL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/51uyniJntOL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/51uyniJntOL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/91ItpgKYtfL.jpg</URL>
+            <Height Units="pixels">2500</Height>
+            <Width Units="pixels">2500</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/51c85Q687UL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/51c85Q687UL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/51c85Q687UL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/51c85Q687UL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/51c85Q687UL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/51c85Q687UL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/91VD4%2BZcnNL.jpg</URL>
+            <Height Units="pixels">2500</Height>
+            <Width Units="pixels">2500</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/31exuUk%2ByxL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/31exuUk%2ByxL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/31exuUk%2ByxL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/31exuUk%2ByxL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/31exuUk%2ByxL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/31exuUk%2ByxL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/71WNIJoHy3L.jpg</URL>
+            <Height Units="pixels">2000</Height>
+            <Width Units="pixels">2000</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/31OCKk7JiBL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">22</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/31OCKk7JiBL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">56</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/31OCKk7JiBL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">56</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/31OCKk7JiBL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">82</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/31OCKk7JiBL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">120</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/31OCKk7JiBL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">375</Width>
+          </LargeImage>
+        </ImageSet>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/51IofQb9dgL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/51IofQb9dgL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/51IofQb9dgL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/51IofQb9dgL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/51IofQb9dgL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/51IofQb9dgL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/81BNXRk7FXL.jpg</URL>
+            <Height Units="pixels">2000</Height>
+            <Width Units="pixels">2000</Width>
+          </HiResImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Binding>Health and Beauty</Binding>
+        <Brand>Gillette</Brand>
+        <CatalogNumberList>
+          <CatalogNumberListElement>PG-6798</CatalogNumberListElement>
+        </CatalogNumberList>
+        <Color>Black</Color>
+        <EAN>0047400650428</EAN>
+        <EANList>
+          <EANListElement>0047400650428</EANListElement>
+          <EANListElement>0885376735585</EANListElement>
+          <EANListElement>0885376853937</EANListElement>
+        </EANList>
+        <Feature>Gillette Fusion ProGlide Power Manual Men's Razor with FlexBall Handle Technology</Feature>
+        <Feature>FlexBall Handle Technology responds to contours for Gillette's best shave</Feature>
+        <Feature>5 Blades; our thinnest, finest blades (first 4 blades) for less tug and pull (vs. Fusion)</Feature>
+        <Feature>Precision Trimmer on the back for accurate edging</Feature>
+        <Feature>Gillette's #1 razor on sensitive skin (in manual and power)</Feature>
+        <Feature>All Fusion razor blades fit all Fusion handles</Feature>
+        <ItemDimensions>
+          <Height Units="hundredths-inches">776</Height>
+          <Length Units="hundredths-inches">189</Length>
+          <Weight Units="pounds">0.26</Weight>
+          <Width Units="hundredths-inches">394</Width>
+        </ItemDimensions>
+        <Label>Gillette</Label>
+        <ListPrice>
+          <Amount>1429</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$14.29</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Gillette</Manufacturer>
+        <Model>NA</Model>
+        <MPN>PG-6798</MPN>
+        <NumberOfItems>1</NumberOfItems>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">160</Height>
+          <Length Units="hundredths-inches">760</Length>
+          <Weight Units="hundredths-pounds">20</Weight>
+          <Width Units="hundredths-inches">340</Width>
+        </PackageDimensions>
+        <PackageQuantity>1</PackageQuantity>
+        <PartNumber>PG-6798</PartNumber>
+        <ProductGroup>Beauty</ProductGroup>
+        <ProductTypeName>BEAUTY</ProductTypeName>
+        <PublicationDate>2014-05-06</PublicationDate>
+        <Publisher>Gillette</Publisher>
+        <Size>Handle + 2 refills</Size>
+        <Studio>Gillette</Studio>
+        <Title>Gillette Fusion Proglide Men's Razor With Flexball Handle Technology and 2 Razor Blade Refills</Title>
+        <UPC>885376735585</UPC>
+        <UPCList>
+          <UPCListElement>885376735585</UPCListElement>
+          <UPCListElement>047400650428</UPCListElement>
+          <UPCListElement>885376853937</UPCListElement>
+        </UPCList>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1247</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$12.47</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>2</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/B00J2APFMW%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00J2APFMW</MoreOffersUrl>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>wvyaIHO157UNWyZ0K84E0TjKzYA5HwMDXZdPEGSosnluGqKz6vKzTHlHGwRlsZPBLzrMF8%2FyDsFvH7%2FprUk%2FOE%2B%2FbmcY0w7ldFtzI%2B4I52%2FOqS%2FBdWg6Kg%3D%3D</OfferListingId>
+            <Price>
+              <Amount>1247</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$12.47</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>182</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$1.82</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>13</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+            <IsEligibleForPrime>1</IsEligibleForPrime>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000AYTYK8</ASIN>
+      <DetailPageURL>http://www.amazon.com/Timex-Womens-T2H341-Reader-Leather/dp/B000AYTYK8%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB000AYTYK8</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/Timex-Womens-T2H341-Reader-Leather/dp/tech-data/B000AYTYK8%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000AYTYK8</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB000AYTYK8%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000AYTYK8</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB000AYTYK8%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000AYTYK8</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB000AYTYK8%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000AYTYK8</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/B000AYTYK8%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000AYTYK8</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/B000AYTYK8%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000AYTYK8</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/B000AYTYK8%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000AYTYK8</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/4136CbnKXPL._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">30</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/4136CbnKXPL._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">65</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/4136CbnKXPL.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">203</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/215EoUbPBOL._SL30_.jpg</URL>
+            <Height Units="pixels">9</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/215EoUbPBOL._SL75_.jpg</URL>
+            <Height Units="pixels">22</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/215EoUbPBOL._SL75_.jpg</URL>
+            <Height Units="pixels">22</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/215EoUbPBOL._SL110_.jpg</URL>
+            <Height Units="pixels">32</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/215EoUbPBOL._SL160_.jpg</URL>
+            <Height Units="pixels">47</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/215EoUbPBOL.jpg</URL>
+            <Height Units="pixels">146</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/61Cugp3evEL.jpg</URL>
+            <Height Units="pixels">746</Height>
+            <Width Units="pixels">2560</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/517dDVEgNkL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">27</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/517dDVEgNkL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">67</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/517dDVEgNkL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">67</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/517dDVEgNkL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">98</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/517dDVEgNkL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">142</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/517dDVEgNkL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">445</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/91lbYOkTU0L.jpg</URL>
+            <Height Units="pixels">2560</Height>
+            <Width Units="pixels">2280</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/4136CbnKXPL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">12</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/4136CbnKXPL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">30</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/4136CbnKXPL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">30</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/4136CbnKXPL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">45</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/4136CbnKXPL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">65</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/4136CbnKXPL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">203</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/81N0PYW9efL.jpg</URL>
+            <Height Units="pixels">2330</Height>
+            <Width Units="pixels">948</Width>
+          </HiResImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Binding>Watch</Binding>
+        <Brand>Timex</Brand>
+        <CatalogNumberList>
+          <CatalogNumberListElement>TMX-T2H341</CatalogNumberListElement>
+          <CatalogNumberListElement>957</CatalogNumberListElement>
+          <CatalogNumberListElement>75761</CatalogNumberListElement>
+          <CatalogNumberListElement>A</CatalogNumberListElement>
+          <CatalogNumberListElement>2H341</CatalogNumberListElement>
+          <CatalogNumberListElement>T2H341CB</CatalogNumberListElement>
+          <CatalogNumberListElement>T2H341</CatalogNumberListElement>
+          <CatalogNumberListElement>T2H3419J</CatalogNumberListElement>
+        </CatalogNumberList>
+        <Color>Black Strap/Gold/White Dial</Color>
+        <Creator Role="Designer">Timex</Creator>
+        <Department>TRAVEL GEAR</Department>
+        <EAN>0753048176298</EAN>
+        <EANList>
+          <EANListElement>0753048176298</EANListElement>
+        </EANList>
+        <Feature>A clearly numbered face and polished finish make Timex Women's watch a practical yet pretty timepiece ideal for work or play.</Feature>
+        <Feature>Quartz movement with analog display</Feature>
+        <Feature>Protective mineral crystal dial window</Feature>
+        <Feature>Features include Indiglo® night-light, easy-to-read dial, genuine leather strap, polished finish</Feature>
+        <Feature>Water resistant to 99 feet (30 M): withstands rain and splashes of water, but not showering or submersion</Feature>
+        <IsAdultProduct>0</IsAdultProduct>
+        <IsAutographed>0</IsAutographed>
+        <IsMemorabilia>0</IsMemorabilia>
+        <ItemDimensions>
+          <Height Units="hundredths-inches">20</Height>
+          <Length Units="hundredths-inches">20</Length>
+          <Weight Units="hundredths-pounds">3</Weight>
+          <Width Units="hundredths-inches">20</Width>
+        </ItemDimensions>
+        <Label>Timex</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>4495</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$44.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Timex</Manufacturer>
+        <Model>T2H341</Model>
+        <MPN>T2H3419J</MPN>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">260</Height>
+          <Length Units="hundredths-inches">350</Length>
+          <Weight Units="hundredths-pounds">15</Weight>
+          <Width Units="hundredths-inches">300</Width>
+        </PackageDimensions>
+        <PackageQuantity>1</PackageQuantity>
+        <PartNumber>T2H3419J</PartNumber>
+        <ProductGroup>Watch</ProductGroup>
+        <ProductTypeName>WATCH</ProductTypeName>
+        <Publisher>Timex</Publisher>
+        <ReleaseDate>2014-06-26</ReleaseDate>
+        <Studio>Timex</Studio>
+        <Title>Timex Women's T2H341 Easy Reader Black Leather Strap Watch</Title>
+        <UPC>753048176298</UPC>
+        <UPCList>
+          <UPCListElement>753048176298</UPCListElement>
+        </UPCList>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>2080</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$20.80</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1934</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$19.34</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>9</TotalNew>
+        <TotalUsed>4</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/B000AYTYK8%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000AYTYK8</MoreOffersUrl>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>XD0rC5XCZaTw7B4XpD4uG8j0d8N6FQAa0Ovz4BxECjJvZp7LTJgVqkjvGpWovSH8sx3S3TFbP8FVTlzJ8poPK5KKnOj8Q08m6piOK7tEME47T1oFNpuQpg%3D%3D</OfferListingId>
+            <Price>
+              <Amount>2080</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$20.80</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>2415</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$24.15</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>54</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+            <IsEligibleForPrime>1</IsEligibleForPrime>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B019HWTWUA</ASIN>
+      <ParentASIN>B018XAWJKC</ParentASIN>
+      <DetailPageURL>http://www.amazon.com/Harvest-Womens-Sterling-Bracelet-Silver4/dp/B019HWTWUA%3Fpsc%3D1%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB019HWTWUA</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/Harvest-Womens-Sterling-Bracelet-Silver4/dp/tech-data/B019HWTWUA%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB019HWTWUA</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB019HWTWUA%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB019HWTWUA</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB019HWTWUA%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB019HWTWUA</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB019HWTWUA%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB019HWTWUA</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/B019HWTWUA%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB019HWTWUA</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/B019HWTWUA%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB019HWTWUA</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/B019HWTWUA%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB019HWTWUA</URL>
+        </ItemLink>
+      </ItemLinks>
+      <ItemAttributes>
+        <Brand>Harvest</Brand>
+        <ClothingSize>generic</ClothingSize>
+        <Color>Silver4</Color>
+        <Department>mens</Department>
+        <EAN>0605657080100</EAN>
+        <EANList>
+          <EANListElement>0605657080100</EANListElement>
+        </EANList>
+        <Feature>100% Guarantee with brand new</Feature>
+        <Feature>Packing including: 1 x Bracelet</Feature>
+        <Feature>Fashion style</Feature>
+        <Feature>A best gift for family, friends and yourself</Feature>
+        <Label>Harvest</Label>
+        <Manufacturer>Harvest</Manufacturer>
+        <ManufacturerPartsWarrantyDescription>Parts</ManufacturerPartsWarrantyDescription>
+        <MPN>34</MPN>
+        <PackageQuantity>1</PackageQuantity>
+        <PartNumber>34</PartNumber>
+        <ProductGroup>Automotive Parts and Accessories</ProductGroup>
+        <ProductTypeName>AUTO_PART</ProductTypeName>
+        <Publisher>Harvest</Publisher>
+        <Size>generic</Size>
+        <Studio>Harvest</Studio>
+        <Title>Harvest Women's 925 Sterling Silver Heart Chain Bracelet (Silver4)</Title>
+        <UPC>605657080100</UPC>
+        <UPCList>
+          <UPCListElement>605657080100</UPCListElement>
+        </UPCList>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$9.99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/B019HWTWUA%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB019HWTWUA</MoreOffersUrl>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>4EiBcvXDeIOVhAhUpu4WpcMG7ZWZaNesilJrKYrCgOTdDbXndFVttY8decrHZ0P77XwjmTrMX4wvS6PsdBnP3Z9AJi%2FvYjbzMZ0eEZkHUdU4SSBFgMag%2Fr%2F7Yfxdj1oUaabpXw8cTtNHY88PCyCQDdryOvam7vCp</OfferListingId>
+            <Price>
+              <Amount>999</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$9.99</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 1-2 business days</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>24</MinimumHours>
+              <MaximumHours>48</MaximumHours>
+            </AvailabilityAttributes>
+            <IsEligibleForSuperSaverShipping>0</IsEligibleForSuperSaverShipping>
+            <IsEligibleForPrime>0</IsEligibleForPrime>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B00GNUC0R2</ASIN>
+      <DetailPageURL>http://www.amazon.com/Disney-Mickey-Mouse-Clubhouse-Plush/dp/B00GNUC0R2%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB00GNUC0R2</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/Disney-Mickey-Mouse-Clubhouse-Plush/dp/tech-data/B00GNUC0R2%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00GNUC0R2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB00GNUC0R2%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00GNUC0R2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB00GNUC0R2%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00GNUC0R2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB00GNUC0R2%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00GNUC0R2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/B00GNUC0R2%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00GNUC0R2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/B00GNUC0R2%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00GNUC0R2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/B00GNUC0R2%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00GNUC0R2</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/41KXUfND-XL._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">71</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/41KXUfND-XL._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">151</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/41KXUfND-XL.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">473</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/41KXUfND-XL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">28</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/41KXUfND-XL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">71</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/41KXUfND-XL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">71</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/41KXUfND-XL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">104</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/41KXUfND-XL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">151</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/41KXUfND-XL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">473</Width>
+          </LargeImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Binding>Toy</Binding>
+        <Brand>Disney</Brand>
+        <EAN>0703255656120</EAN>
+        <EANList>
+          <EANListElement>0703255656120</EANListElement>
+        </EANList>
+        <Feature>10 inches figure plush soft stuffed Doll</Feature>
+        <Feature>Licensed by Disney.</Feature>
+        <Feature>Size: 10 in(H)</Feature>
+        <Feature>Embroidery eyes.</Feature>
+        <Feature>Soft and touchable plush material</Feature>
+        <IsAdultProduct>0</IsAdultProduct>
+        <Label>Mickey Mouse Clubhouse</Label>
+        <Manufacturer>Mickey Mouse Clubhouse</Manufacturer>
+        <ManufacturerMinimumAge Units="months">36</ManufacturerMinimumAge>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">360</Height>
+          <Length Units="hundredths-inches">690</Length>
+          <Weight Units="hundredths-pounds">15</Weight>
+          <Width Units="hundredths-inches">660</Width>
+        </PackageDimensions>
+        <PackageQuantity>1</PackageQuantity>
+        <ProductGroup>Toy</ProductGroup>
+        <ProductTypeName>TOYS_AND_GAMES</ProductTypeName>
+        <Publisher>Mickey Mouse Clubhouse</Publisher>
+        <Studio>Mickey Mouse Clubhouse</Studio>
+        <Title>Disney Mickey Mouse Clubhouse - Mickey Mouse 10" Plush Doll</Title>
+        <UPC>703255656120</UPC>
+        <UPCList>
+          <UPCListElement>703255656120</UPCListElement>
+        </UPCList>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>745</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$7.45</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1295</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$12.95</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>399</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$3.99</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>6</TotalNew>
+        <TotalUsed>1</TotalUsed>
+        <TotalCollectible>2</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/B00GNUC0R2%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00GNUC0R2</MoreOffersUrl>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>4EiBcvXDeIO9bpMjCcA2J3qREkC4MBtgj7gOIpRN1x9FTvh%2FwkZeyJrm5xjD0osNAF8luRhWIrzoGcuJSLuzV%2B%2BPAishq3kK1l2V500Z8wGFM%2BgNgS53wHd%2F%2BA5gsEtaCGdrDQX8cxUtgURc3%2BjNkA%3D%3D</OfferListingId>
+            <Price>
+              <Amount>1243</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$12.43</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 1-2 business days</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>24</MinimumHours>
+              <MaximumHours>48</MaximumHours>
+            </AvailabilityAttributes>
+            <IsEligibleForSuperSaverShipping>0</IsEligibleForSuperSaverShipping>
+            <IsEligibleForPrime>0</IsEligibleForPrime>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0163GNS5S</ASIN>
+      <ParentASIN>B0169EUKNC</ParentASIN>
+      <DetailPageURL>http://www.amazon.com/Microsoft-Surface-NVIDIA-GeForce-graphics/dp/B0163GNS5S%3Fpsc%3D1%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB0163GNS5S</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/Microsoft-Surface-NVIDIA-GeForce-graphics/dp/tech-data/B0163GNS5S%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0163GNS5S</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB0163GNS5S%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0163GNS5S</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB0163GNS5S%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0163GNS5S</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB0163GNS5S%26SubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0163GNS5S</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/B0163GNS5S%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0163GNS5S</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/B0163GNS5S%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0163GNS5S</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/B0163GNS5S%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0163GNS5S</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/41NiUhymhRL._SL75_.jpg</URL>
+        <Height Units="pixels">42</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/41NiUhymhRL._SL160_.jpg</URL>
+        <Height Units="pixels">90</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/41NiUhymhRL.jpg</URL>
+        <Height Units="pixels">281</Height>
+        <Width Units="pixels">500</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/41NiUhymhRL._SL30_.jpg</URL>
+            <Height Units="pixels">17</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/41NiUhymhRL._SL75_.jpg</URL>
+            <Height Units="pixels">42</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/41NiUhymhRL._SL75_.jpg</URL>
+            <Height Units="pixels">42</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/41NiUhymhRL._SL110_.jpg</URL>
+            <Height Units="pixels">62</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/41NiUhymhRL._SL160_.jpg</URL>
+            <Height Units="pixels">90</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/41NiUhymhRL.jpg</URL>
+            <Height Units="pixels">281</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Binding>Personal Computers</Binding>
+        <Brand>Microsoft</Brand>
+        <CatalogNumberList>
+          <CatalogNumberListElement>Surface Book</CatalogNumberListElement>
+        </CatalogNumberList>
+        <Color>Silver</Color>
+        <Creator Role="Designer">Microsoft</Creator>
+        <EAN>0889842015652</EAN>
+        <EANList>
+          <EANListElement>0889842015652</EANListElement>
+        </EANList>
+        <Feature>13.5-inch PixelSense touchscreen display (3000 x 2000) resolution</Feature>
+        <Feature>Windows 10 Pro operating system</Feature>
+        <Feature>Incredibly mobile at 3.48 pounds (1576 grams)</Feature>
+        <Feature>Surface Pen included</Feature>
+        <ItemDimensions>
+          <Height Units="hundredths-inches">193</Height>
+          <Length Units="hundredths-inches">1095</Length>
+          <Weight Units="hundredths-pounds">348</Weight>
+          <Width Units="hundredths-inches">1646</Width>
+        </ItemDimensions>
+        <Label>Microsoft</Label>
+        <ListPrice>
+          <Amount>269900</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$2,699.00</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Microsoft</Manufacturer>
+        <ManufacturerPartsWarrantyDescription>1 Year Limited</ManufacturerPartsWarrantyDescription>
+        <Model>CR7-00001</Model>
+        <MPN>CR7-00001</MPN>
+        <NumberOfItems>1</NumberOfItems>
+        <OperatingSystem>Windows 10 Pro</OperatingSystem>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">220</Height>
+          <Length Units="hundredths-inches">1900</Length>
+          <Weight Units="hundredths-pounds">775</Weight>
+          <Width Units="hundredths-inches">1150</Width>
+        </PackageDimensions>
+        <PackageQuantity>1</PackageQuantity>
+        <PartNumber>CR7-00001</PartNumber>
+        <ProductGroup>Personal Computer</ProductGroup>
+        <ProductTypeName>NOTEBOOK_COMPUTER</ProductTypeName>
+        <Publisher>Microsoft</Publisher>
+        <ReleaseDate>2015-10-26</ReleaseDate>
+        <Size>512 GB</Size>
+        <Studio>Microsoft</Studio>
+        <Title>Microsoft Surface Book (512 GB, 16 GB RAM, Intel Core i7, NVIDIA GeForce graphics)</Title>
+        <UPC>889842015652</UPC>
+        <UPCList>
+          <UPCListElement>889842015652</UPCListElement>
+        </UPCList>
+        <Warranty>1 Year</Warranty>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>264649</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$2,646.49</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>244900</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$2,449.00</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>19</TotalNew>
+        <TotalUsed>1</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/B0163GNS5S%3FSubscriptionId%3D<your aws key>%26tag%3D<your associate tag>%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0163GNS5S</MoreOffersUrl>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>%2F99GpNaaVLDT4Lor%2BOz3rAB%2Bd52yFy%2BaaI7IdouqK39Z1mhDevsqbBL322IizRLtksq5SFLzcMlKeRGSGx5gXvZ5zqV8Jinge0T3ONAj5iCAk0Yqn%2FINmogkcSDBahpNdekNTQQo9ocb2VEA9vLhog%3D%3D</OfferListingId>
+            <Price>
+              <Amount>264649</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$2,646.49</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>5251</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$52.51</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>2</PercentageSaved>
+            <Availability>Usually ships in 1-2 business days</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>24</MinimumHours>
+              <MaximumHours>48</MaximumHours>
+            </AvailabilityAttributes>
+            <IsEligibleForSuperSaverShipping>0</IsEligibleForSuperSaverShipping>
+            <IsEligibleForPrime>0</IsEligibleForPrime>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+  </Items>
+</ItemLookupResponse>

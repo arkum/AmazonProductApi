@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<CartCreateResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2013-08-01">
+  <OperationRequest>
+    <HTTPHeaders>
+      <Header Name="UserAgent" Value="Jakarta Commons-HttpClient/3.0.1"></Header>
+    </HTTPHeaders>
+    <RequestId>02CD77826ZETF7HK81FY</RequestId>
+    <Arguments>
+      <Argument Name="Timestamp" Value="2015-12-21T07:13:16Z"></Argument>
+      <Argument Name="Version" Value="2013-08-01"></Argument>
+      <Argument Name="Signature" Value="amjY4u6O+H1KTcrUlj99tX4PkTyjq9VyCzLPXLXDSUw="></Argument>
+      <Argument Name="ItemId1" Value="B00KHR4T8U"></Argument>
+      <Argument Name="AWSAccessKeyId" Value="<your aws key>"></Argument>
+      <Argument Name="ItemId" Value="B00KHR4T8U"></Argument>
+      <Argument Name="Service" Value="AWSECommerceService"></Argument>
+      <Argument Name="Item.1.Quantity" Value="1"></Argument>
+      <Argument Name="Operation" Value="CartCreate"></Argument>
+      <Argument Name="CartId1" Value="B00KHR4T8U"></Argument>
+      <Argument Name="AssociateTag" Value="<your associate tag>"></Argument>
+      <Argument Name="Item.1.ASIN" Value="B00KHR4T8U"></Argument>
+    </Arguments>
+    <RequestProcessingTime>0.162653923034668</RequestProcessingTime>
+  </OperationRequest>
+  <Cart>
+    <Request>
+      <IsValid>True</IsValid>
+      <CartCreateRequest>
+        <Items>
+          <Item>
+            <ASIN>B00KHR4T8U</ASIN>
+            <Quantity>1</Quantity>
+          </Item>
+        </Items>
+      </CartCreateRequest>
+    </Request>
+    <CartId>175-0140209-4508235</CartId>
+    <HMAC>agwQJuxmiAVItV6vlXrlikqlP7A=</HMAC>
+    <URLEncodedHMAC>agwQJuxmiAVItV6vlXrlikqlP7A%3D</URLEncodedHMAC>
+    <PurchaseURL>https://www.amazon.com/gp/cart/aws-merge.html?cart-id=175-0140209-4508235%26associate-id=<your associate tag>%26hmac=agwQJuxmiAVItV6vlXrlikqlP7A=%26SubscriptionId=<your aws key>%26MergeCart=False</PurchaseURL>
+    <SubTotal>
+      <Amount>95999</Amount>
+      <CurrencyCode>USD</CurrencyCode>
+      <FormattedPrice>$959.99</FormattedPrice>
+    </SubTotal>
+    <CartItems>
+      <SubTotal>
+        <Amount>95999</Amount>
+        <CurrencyCode>USD</CurrencyCode>
+        <FormattedPrice>$959.99</FormattedPrice>
+      </SubTotal>
+      <CartItem>
+        <CartItemId>C2FR11BQW4IADP</CartItemId>
+        <ASIN>B00KHR4T8U</ASIN>
+        <SellerNickname>BOSS BARGAINS</SellerNickname>
+        <Quantity>1</Quantity>
+        <Title>Microsoft Surface Pro 3 (128 GB, Intel Core i5, Windows 8.1) - Free Windows 10 Upgrade</Title>
+        <ProductGroup>Personal Computer</ProductGroup>
+        <Price>
+          <Amount>95999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$959.99</FormattedPrice>
+        </Price>
+        <ItemTotal>
+          <Amount>95999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$959.99</FormattedPrice>
+        </ItemTotal>
+      </CartItem>
+    </CartItems>
+  </Cart>
+</CartCreateResponse>

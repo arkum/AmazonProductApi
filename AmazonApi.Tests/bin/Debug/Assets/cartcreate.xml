@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CartCreateResponse
+    xmlns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
+    <OperationRequest>
+        <HTTPHeaders>
+            <Header Name="UserAgent" Value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36"></Header>
+        </HTTPHeaders>
+        <RequestId>0NC58CHX032YKWNBS1E7</RequestId>
+        <Arguments>
+            <Argument Name="Service" Value="AWSECommerceService"></Argument>
+            <Argument Name="ResponseGroup" Value="Cart"></Argument>
+            <Argument Name="Item.1.Quantity" Value="1"></Argument>
+            <Argument Name="Operation" Value="CartCreate"></Argument>
+            <Argument Name="Timestamp" Value="2015-12-26T05:17:33.000Z"></Argument>
+            <Argument Name="AssociateTag" Value="<your associate tag>"></Argument>
+            <Argument Name="Signature" Value="UcQ6QEDo13JkYYd4Nj2Jl5SVy+rRF5gmDpE7Yl64WUs="></Argument>
+            <Argument Name="Item.1.OfferListingId" Value="GT5MOtJKMw77jOdMW4BTQj5+7tzBJuDfhgPgizmTlVpta1FvMD5GdoAedgwNH/FLrD1ZTXIliEGoE0VilYpxIUpnga3C+gE7ak6ILebxaKlu6Dl8Ad5+GNwqV8dM9uHbNqzTCj7n6C8c/13NocmgVdqxvviGmfNh"></Argument>
+            <Argument Name="AWSAccessKeyId" Value="<your aws key>"></Argument>
+        </Arguments>
+        <RequestProcessingTime>0.119011163711548</RequestProcessingTime>
+    </OperationRequest>
+    <Cart>
+        <Request>
+            <IsValid>True</IsValid>
+            <CartCreateRequest>
+                <Items>
+                    <Item>
+                        <OfferListingId>GT5MOtJKMw77jOdMW4BTQj5+7tzBJuDfhgPgizmTlVpta1FvMD5GdoAedgwNH/FLrD1ZTXIliEGoE0VilYpxIUpnga3C+gE7ak6ILebxaKlu6Dl8Ad5+GNwqV8dM9uHbNqzTCj7n6C8c/13NocmgVdqxvviGmfNh</OfferListingId>
+                        <Quantity>1</Quantity>
+                    </Item>
+                </Items>
+                <ResponseGroup>Cart</ResponseGroup>
+            </CartCreateRequest>
+        </Request>
+        <CartId>188-0745278-1045129</CartId>
+        <HMAC>hqiwKJhcBLVeAITgcy9H5YQatLA=</HMAC>
+        <URLEncodedHMAC>hqiwKJhcBLVeAITgcy9H5YQatLA%3D</URLEncodedHMAC>
+        <PurchaseURL>https://www.amazon.com/gp/cart/aws-merge.html?cart-id=188-0745278-1045129%26associate-id=<your associate tag>%26hmac=hqiwKJhcBLVeAITgcy9H5YQatLA=%26SubscriptionId=<your aws key>%26MergeCart=False</PurchaseURL>
+        <SubTotal>
+            <Amount>3764</Amount>
+            <CurrencyCode>USD</CurrencyCode>
+            <FormattedPrice>$37.64</FormattedPrice>
+        </SubTotal>
+        <CartItems>
+            <SubTotal>
+                <Amount>3764</Amount>
+                <CurrencyCode>USD</CurrencyCode>
+                <FormattedPrice>$37.64</FormattedPrice>
+            </SubTotal>
+            <CartItem>
+                <CartItemId>CH2ERL1IRP3UF</CartItemId>
+                <ASIN>B00MHIWT8O</ASIN>
+                <SellerNickname>JIABAO TECHNOLOGY</SellerNickname>
+                <Quantity>1</Quantity>
+                <Title>Sport Watch For men on Mechanical 4 Hands AND Date Day (28058)</Title>
+                <ProductGroup>Watch</ProductGroup>
+                <Price>
+                    <Amount>3764</Amount>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <FormattedPrice>$37.64</FormattedPrice>
+                </Price>
+                <ItemTotal>
+                    <Amount>3764</Amount>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <FormattedPrice>$37.64</FormattedPrice>
+                </ItemTotal>
+            </CartItem>
+        </CartItems>
+    </Cart>
+</CartCreateResponse>
