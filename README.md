@@ -10,6 +10,7 @@ Amazon Product API wrapper in C#
 You can optionally pass a ``` Func<string, Task<XDocument>> ``` to avoid hitting amazon services in unit tests
 
 ```cs
+Func<string, Task<XDocument>> retrievelfunc = (url) => Task.FromResult(XDocument.Load(@"Assets\amazon.xml"));
 var products = await amazonapi.ItemLookup(productids, "Images,ItemAttributes,Offers", retrievelfunc);
 ```
 
